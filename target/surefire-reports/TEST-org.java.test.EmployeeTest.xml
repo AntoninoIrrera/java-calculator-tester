@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.java.strumenti.test.CalculatorTest" time="0.053" tests="5" errors="0" skipped="1" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.java.test.EmployeeTest" time="0" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -58,13 +58,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="divideTest" classname="org.java.strumenti.test.CalculatorTest" time="0.023"/>
-  <testcase name="addTest" classname="org.java.strumenti.test.CalculatorTest" time="0.001"/>
-  <testcase name="multiplyTest" classname="org.java.strumenti.test.CalculatorTest" time="0.001"/>
-  <testcase name="divideExcTest" classname="org.java.strumenti.test.CalculatorTest" time="0">
-    <skipped message="Assumption failed: assumption is not true" type="org.opentest4j.TestAbortedException">org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
-	at org.java.strumenti.test.CalculatorTest.divideExcTest(CalculatorTest.java:82)
-</skipped>
-  </testcase>
-  <testcase name="subtractTest" classname="org.java.strumenti.test.CalculatorTest" time="0.001"/>
+  <testcase name="employeeTest" classname="org.java.test.EmployeeTest" time="0"/>
+  <testcase name="employeeExcTest" classname="org.java.test.EmployeeTest" time="0"/>
+  <testcase name="bossTest" classname="org.java.test.EmployeeTest" time="0"/>
 </testsuite>
