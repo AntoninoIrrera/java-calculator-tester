@@ -2,6 +2,8 @@ package org.java.strumenti.test;
 
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assumptions.assumeTrue;
 
 import org.java.strumenti.Calculator;
 import org.junit.jupiter.api.Test;
@@ -70,6 +72,22 @@ public class CalculatorTest {
 		assertEquals(risultatoAtteso, risultatoFinale);
 		
 	}
+	
+	@Test
+	public void divideExcTest() throws Exception{
+		
+		final float num1 = 20;
+		final float num2 = -1;
+		
+		assumeTrue(num2 == 0);
+		
+		final Calculator c = new Calculator();
+		
+		assertThrows(Exception.class,
+				() -> c.divide(num1,num2),
+				"Deve sollevare eccezione");
+	}
+	
 	
 	
 }

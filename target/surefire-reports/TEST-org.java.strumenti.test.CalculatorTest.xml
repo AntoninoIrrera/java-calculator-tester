@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.java.strumenti.test.CalculatorTest" time="0.053" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.java.strumenti.test.CalculatorTest" time="0.056" tests="5" errors="0" skipped="1" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IT"/>
     <property name="sun.boot.library.path" value="C:\Users\irrer\Desktop\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\irrer\AppData\Local\Temp\surefire1656309641743964582\surefirebooter14159360616576174217.jar C:\Users\irrer\AppData\Local\Temp\surefire1656309641743964582 2023-05-23T14-19-20_233-jvmRun1 surefire14323466380310479675tmp surefire_013532154483872393493tmp"/>
+    <property name="sun.java.command" value="C:\Users\irrer\AppData\Local\Temp\surefire834456027594786856\surefirebooter2286571609450872074.jar C:\Users\irrer\AppData\Local\Temp\surefire834456027594786856 2023-05-23T14-30-54_562-jvmRun1 surefire15628578185533268878tmp surefire_07876089914626975983tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\irrer\eclipse-workspace\java-calculator-tester\target\test-classes;C:\Users\irrer\eclipse-workspace\java-calculator-tester\target\classes;C:\Users\irrer\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0-M1\junit-jupiter-engine-5.10.0-M1.jar;C:\Users\irrer\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0-M1\junit-platform-engine-1.10.0-M1.jar;C:\Users\irrer\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\irrer\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0-M1\junit-platform-commons-1.10.0-M1.jar;C:\Users\irrer\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0-M1\junit-jupiter-api-5.10.0-M1.jar;C:\Users\irrer\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\irrer\AppData\Local\Temp\surefire1656309641743964582\surefirebooter14159360616576174217.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\irrer\AppData\Local\Temp\surefire834456027594786856\surefirebooter2286571609450872074.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.6+10"/>
@@ -58,8 +58,13 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="divideTest" classname="org.java.strumenti.test.CalculatorTest" time="0.026"/>
+  <testcase name="divideTest" classname="org.java.strumenti.test.CalculatorTest" time="0.027"/>
   <testcase name="addTest" classname="org.java.strumenti.test.CalculatorTest" time="0"/>
-  <testcase name="multiplyTest" classname="org.java.strumenti.test.CalculatorTest" time="0"/>
-  <testcase name="subtractTest" classname="org.java.strumenti.test.CalculatorTest" time="0.001"/>
+  <testcase name="multiplyTest" classname="org.java.strumenti.test.CalculatorTest" time="0.001"/>
+  <testcase name="getDivExcTest" classname="org.java.strumenti.test.CalculatorTest" time="0">
+    <skipped message="Assumption failed: assumption is not true" type="org.opentest4j.TestAbortedException">org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
+	at org.java.strumenti.test.CalculatorTest.getDivExcTest(CalculatorTest.java:82)
+</skipped>
+  </testcase>
+  <testcase name="subtractTest" classname="org.java.strumenti.test.CalculatorTest" time="0"/>
 </testsuite>
